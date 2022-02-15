@@ -1,9 +1,8 @@
 'use strict';
 
 const express = require("express");
-var cors = require('cors')
 const app = express();
-app.use(cors())
+
 const axios = require("axios");
 
 const dotenv = require('dotenv');
